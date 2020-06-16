@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="myinfoMain" prefHeight="564.0" prefWidth="400.0" style="-fx-background-image: /images/background.jpg;" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="buttonmy" layoutX="102.0" layoutY="127.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="196.0" style="-fx-background-color: black;" text="MyInfo" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button id="mybutton" layoutX="102.0" layoutY="341.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="196.0" style="-fx-background-color: black;" text="주문 현황" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children></AnchorPane>
+   </center>
+</BorderPane>

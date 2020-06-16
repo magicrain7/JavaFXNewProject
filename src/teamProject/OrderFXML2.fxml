@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="564.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="300.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="400.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/2.jpg" />
+               </image>
+            </ImageView>
+            <Separator layoutX="4.0" layoutY="124.0" prefHeight="3.0" prefWidth="391.0" />
+            <Separator layoutX="4.0" layoutY="504.0" prefHeight="3.0" prefWidth="391.0" />
+            <Label layoutX="184.0" layoutY="141.0" text="메뉴">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="35.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../menuimages/rest02_01.png" />
+               </image></ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="35.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../menuimages/rest02_02.png" />
+               </image></ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="35.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../menuimages/rest02_03.png" />
+               </image></ImageView>
+                 <fx:define>
+                     <ToggleGroup fx:id="kyochon" />
+                 </fx:define>
+            <RadioButton id="kyochon1" toggleGroup="$kyochon" layoutX="140.0" layoutY="212.0" mnemonicParsing="false" text="교촌오리지날">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <RadioButton id="kyochon2" toggleGroup="$kyochon" layoutX="140.0" layoutY="313.0" mnemonicParsing="false" text="교촌레드순살">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <RadioButton id="kyochon3" toggleGroup="$kyochon" layoutX="140.0" layoutY="411.0" mnemonicParsing="false" text="교촌허니콤보">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <Label layoutX="168.0" layoutY="240.0" text="15,000원">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label layoutX="168.0" layoutY="343.0" text="19,000원">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label layoutX="168.0" layoutY="439.0" text="18,000원">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+         </children></AnchorPane>
+   </center>
+      <bottom>
+      <Button id="basket" blendMode="EXCLUSION" prefHeight="42.0" prefWidth="400.0" text="장바구니" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

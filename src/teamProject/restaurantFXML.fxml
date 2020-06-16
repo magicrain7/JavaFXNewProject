@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="564.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <right>
+      <ScrollBar orientation="VERTICAL" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView id="ricecake" fitHeight="145.0" fitWidth="380.0" layoutX="3.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/1.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Separator layoutX="11.0" layoutY="107.0" prefHeight="11.0" prefWidth="371.0" />
+            <ImageView id="chicken" fitHeight="212.0" fitWidth="380.0" layoutX="5.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/2.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Separator layoutX="11.0" layoutY="221.0" prefHeight="11.0" prefWidth="371.0" />
+            <ImageView id="pizza" fitHeight="93.0" fitWidth="380.0" layoutX="7.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/3.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Separator layoutX="11.0" layoutY="330.0" prefHeight="11.0" prefWidth="371.0" />
+            <ImageView id="zzazang" fitHeight="194.0" fitWidth="380.0" layoutX="7.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/4.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Separator layoutX="11.0" layoutY="440.0" prefHeight="11.0" prefWidth="371.0" />
+            <ImageView id="hamburger" fitHeight="128.0" fitWidth="380.0" layoutX="7.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/5.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Separator layoutX="11.0" layoutY="549.0" prefHeight="11.0" prefWidth="371.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

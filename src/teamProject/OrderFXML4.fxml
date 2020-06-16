@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="564.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="300.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="100.0" fitWidth="400.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/4.jpg" />
+               </image>
+            </ImageView>
+            <Separator layoutX="4.0" layoutY="124.0" prefHeight="3.0" prefWidth="391.0" />
+            <Separator layoutX="4.0" layoutY="504.0" prefHeight="3.0" prefWidth="391.0" />
+            <Label layoutX="184.0" layoutY="141.0" text="메뉴">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="35.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../menuimages/rest04_01.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="35.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../menuimages/rest04_02.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="35.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../menuimages/rest04_03.JPG" />
+               </image></ImageView>
+                 <fx:define>
+                     <ToggleGroup fx:id="banjum" />
+                 </fx:define>
+            <RadioButton id="banjum1" toggleGroup="$banjum" layoutX="140.0" layoutY="212.0" mnemonicParsing="false" text="짜장면">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <RadioButton id="banjum2" toggleGroup="$banjum" layoutX="140.0" layoutY="313.0" mnemonicParsing="false" text="짬뽕">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <RadioButton id="banjum3" toggleGroup="$banjum" layoutX="140.0" layoutY="411.0" mnemonicParsing="false" text="중화비빔밥">
+               <font>
+                  <Font size="15.0" />
+               </font></RadioButton>
+            <Label layoutX="168.0" layoutY="240.0" text="6,000원">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label layoutX="168.0" layoutY="343.0" text="7,000원">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+            <Label layoutX="168.0" layoutY="439.0" text="7,000원">
+               <font>
+                  <Font size="13.0" />
+               </font></Label>
+         </children></AnchorPane>
+   </center>
+      <bottom>
+      <Button id="basket" blendMode="EXCLUSION" prefHeight="42.0" prefWidth="400.0" text="장바구니" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

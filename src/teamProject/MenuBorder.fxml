@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="bp" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="36.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <MenuButton id="menuBtn" blendMode="EXCLUSION" mnemonicParsing="false" prefHeight="36.0" prefWidth="127.0" text="Menu">
+              <items>
+                <MenuItem id="main" mnemonicParsing="false" text="메인" />
+                <MenuItem id="order" mnemonicParsing="false" text="주문하기" />
+                  <MenuItem id="basket" mnemonicParsing="false" text="장바구니" />
+                <MenuItem id="mypage" mnemonicParsing="false" text="MYPAGE" />
+              </items>
+            </MenuButton>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

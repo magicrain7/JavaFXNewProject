@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="login" prefHeight="600.0" prefWidth="400.0" style="-fx-background-image: /images/login.jpg;" stylesheets="@login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="teamProject.OrderMainControll">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="399.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="155.0" layoutY="255.0" text="LOGIN">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="340.0" text="ID">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="406.0" text="Password">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="id" layoutX="179.0" layoutY="338.0" prefHeight="23.0" prefWidth="129.0" />
+            <PasswordField fx:id="password" layoutX="179.0" layoutY="404.0" prefHeight="23.0" prefWidth="129.0" />
+         </children></AnchorPane>
+   </left>
+   <bottom>
+      <AnchorPane prefHeight="96.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="login" layoutX="119.0" layoutY="-21.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="51.0" prefWidth="163.0" text="login" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="registry" layoutX="176.0" layoutY="48.0" text="Sign Up">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

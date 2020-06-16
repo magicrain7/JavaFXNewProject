@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane id="ordermain" prefHeight="600.0" prefWidth="400.0" style="-fx-background-image: /images/mainbackground.jpg;" stylesheets="@MainBackground.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView id="order" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true" >
+               <image>
+                  <Image url="@../images/주문하기.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView id="basket" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true" >
+               <image>
+                  <Image url="@../images/장바구니.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView id="mypage" fitHeight="150.0" fitWidth="200.0" layoutX="100.0" layoutY="409.0" pickOnBounds="true" preserveRatio="true" >
+               <image>
+                  <Image url="@../images/mypage.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
